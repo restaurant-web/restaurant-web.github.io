@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Great Font';
+    src: url("../Polices/fa-v4compatibility.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Dayrom';
+    src: url("../Polices/dayrom.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    min-width: 500px;
+    font-family: 'Great Font';
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Dayrom;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.919);
+    border-bottom: 1px solid rgba(170, 77, 77, 0.638);
+}
+
+nav li:hover {
+    transition: 0.5s;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(149, 199, 133);
+}
+
+#bienvenue {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        url("../images/beer.jpg") center center fixed no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.text-pink {
+    color: var(--bs-danger);
+    font-weight: bold;
+}
+.text-justify {
+    text-align: justify;
+}
+h2 + ul li {
+    margin-bottom: 2rem;
+    list-style-type: none;
+}
+ul li img {
+    margin-right: 1rem;
+    height: 32px;
+}
+
+#menu .card {
+    border: 0 !important;
+}
+#menu .card-body {
+    padding: 0.5rem;
+    background-color: var(--bs-danger);
+}
+#contacts {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.55),
+        var(--bs-warning),
+        var(--bs-danger)
+    );
+}
+
+#contacts li {
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: var(--bs-dark);
+}
+
+.description {
+    color: var(--bs-teal);
+}
+
+.event-description {
+    /* background: linear-gradient(rgba(0, 0, 0, 0.665), rgba(0, 0, 0, 0.83)); */
+    background: rgba(0, 0, 0, 0.597);
+    color: #fff;
+    padding: 1.5rem ;
+    box-shadow: inset 6px 6px 8px black, inset -6px -6px 8px black;
+    border-radius: .5rem ;
+}
+
+#evenements {
+    background: linear-gradient(var(--bs-danger), var(--bs-light));
+    padding: 1rem;
+    margin: 2rem;
+}
+
+#evenements .row:hover {
+    animation: anim 5s;
+}
+
+@keyframes anim {
+    0% {
+        transform: scale(1.01);
+    }
+    50% {
+        transform: scale(1);
+    }
+}
+#reservation {
+    background: url(../images/reservation-seat.jpg) fixed no-repeat center
+        center;
+    background-size: cover;
+    padding: 2rem;
+}
+
+span img, #liensSociaux img {
+    width: 64px;
+    height: 64px;
+}
+
+#returnToUp {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+.form-control:focus {
+    color: #212529;
+    border-color: var(--bs-success);
+    outline: 0;
+    box-shadow: none;
+    border-radius: 0;
+}

@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Restaurant - Let's Eat !</title>
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="shortcut icon" href="./images/icons/favicon.png" />
+    </head>
+
+    <body>
+        <header id="top">
+            <!-- Menu de navigation -->
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+                <div class="container-fluid text-uppercase">
+                    <a class="navbar-brand">
+                        <span class="fw-bold">Let's eat</span>
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse justify-content-end"
+                        id="navbarNav"
+                    >
+                        <ul class="navbar-nav">
+                            <li class="nav-item active me-4">
+                                <a href="#bienvenue" class="nav-link"
+                                    >Bienvenue</a
+                                >
+                            </li>
+                            <li class="nav-item me-4">
+                                <a href="#a_propos" class="nav-link"
+                                    >A propos</a
+                                >
+                            </li>
+                            <li class="nav-item me-4">
+                                <a href="#menu" class="nav-link">Menu</a>
+                            </li>
+                            <li class="nav-item me-4">
+                                <a href="#evenements" class="nav-link"
+                                    >Évènements</a
+                                >
+                            </li>
+                            <li class="nav-item me-4">
+                                <a href="#reservation" class="nav-link"
+                                    >Réservation</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contacts" class="nav-link"
+                                    >Nous contacter</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div>
+            <span id="returnToUp"
+                ><a href="#bienvenue"
+                    ><img src="./images/icons/circle-arrow-up.svg" alt="" /></a
+            ></span>
+        </div>
+
+        <section
+            id="bienvenue"
+            class="d-flex justify-content-center align-items-center"
+        >
+            <div class="text-light text-center">
+                <h1 class="mb-4">
+                    Bienvenue à
+                    <span class="text-capitalize text-pink">Let's eat !!</span>
+                </h1>
+                <span class="fs-2 description"
+                    ><< Si tu as gouté, forcément tu vas rester >></span
+                >
+            </div>
+        </section>
+
+        <section id="a_propos" class="mx-3 my-5">
+            <div class="container-fluid">
+                <h2 class="text-center">A propos de notre restaurant</h2>
+                <div class="row my-5">
+                    <div class="col-12 col-md-6">
+                        <img
+                            class="d-block w-100"
+                            src="./images/about-bg.jpg"
+                            alt=""
+                        />
+                    </div>
+                    <div class="col-12 col-md-4 offset-md-1">
+                        <h4 class="my-4 mt-md-0">LET'S EAT</h4>
+                        <p class="">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Consectetur earum repudiandae nisi officia
+                            enim sapiente unde voluptatum debitis provident
+                            eius, pariatur exercitationem assumenda doloremque
+                            iste.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-5 rounded-3">
+                <h2 class="mb-5">Pourquoi nous choisir ?</h2>
+                <ul>
+                    <li>
+                        <img src="./images/icons/check.svg" alt="" />
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Repudiandae neque molestiae quidem cumque.
+                        Mollitia, accusamus!
+                    </li>
+                    <li>
+                        <img src="./images/icons/check.svg" alt="" />
+
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Consequuntur, rem culpa. Quisquam necessitatibus
+                        possimus numquam.
+                    </li>
+                    <li>
+                        <img src="./images/icons/check.svg" alt="" />
+
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Consequuntur, rem culpa. Quisquam necessitatibus
+                        possimus numquam.
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="menu" class="my-5 text-center">
+            <h2 class="fs-1 py-4">Notre menu</h2>
+
+            <div class="container">
+                <div class="row g-3">
+                    <div class="col-12 col-md-3 card">
+                        <img
+                            class="card-img-top"
+                            src="./images/menu/bread-barrel.jpg"
+                            alt=""
+                        />
+                        <div class="card-body">
+                            <h4 class="card-title">20$</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-3 card">
+                        <img
+                            class="card-img-top"
+                            src="./images/menu/caesar.jpg"
+                            alt=""
+                        />
+                        <div class="card-body">
+                            <h4 class="card-title">30$</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-3 card">
+                        <img
+                            class="card-img-top"
+                            src="./images/menu/cake.jpg"
+                            alt=""
+                        />
+                        <div class="card-body">
+                            <h4 class="card-title">52$</h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 card">
+                        <img
+                            class="card-img-top"
+                            src="./images/menu/greek-salad.jpg"
+                            alt=""
+                        />
+                        <div class="card-body">
+                            <h4 class="card-title">25$</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-3 mt-4">
+                    <div class="col-12 col-md-3 card">
+                        <img
+                            class="card-img-top"
+                            src="./images/menu/lobster-roll.jpg"
+                            alt=""
+                        />
+                        <div class="card-body">
+                            <h4 class="card-title">20$</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-3 card">
+                        <img
+                            class="card-img-top"
+                            src="./images/menu/lobster-bisque.jpg"
+                            alt=""
+                        />
+                        <div class="card-body">
+                            <h4 class="card-title">30$</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-3 card">
+                        <img
+                            class="card-img-top"
+                            src="./images/menu/mozzarella.jpg"
+                            alt=""
+                        />
+                        <div class="card-body">
+                            <h4 class="card-title">52$</h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 card">
+                        <img
+                            class="card-img-top"
+                            src="./images/menu/spinach-salad.jpg"
+                            alt=""
+                        />
+                        <div class="card-body">
+                            <h4 class="card-title">25$</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="evenements">
+            <h2 class="text-center text-capitalize">Services évènementiels</h2>
+
+            <div class="event-description container my-3 fs-4 text-center">
+                Avez vous un évènement à organiser ? Vous etes au meilleur
+                endroit !!
+            </div>
+            <div class="container mx-auto">
+                <div
+                    id="carouselId"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                >
+                    <ol class="carousel-indicators">
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="0"
+                            class="active"
+                        ></li>
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="1"
+                        ></li>
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="2"
+                        ></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="row bg-dark text-light p-2 rounded-3">
+                                <div class="col-12 col-lg-6">
+                                    <img
+                                        class="d-block w-100"
+                                        src="./images/event-birthday.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="col-12 col-lg-5 offset-lg-1">
+                                    <h3>Anniversaires</h3>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Cum laudantium quas eum
+                                    consequatur suscipit itaque, ipsa debitis
+                                    voluptas enim quia, voluptatem
+                                    necessitatibus qui exercitationem pariatur
+                                    iusto! Placeat commodi magnam rerum minima
+                                    quos mollitia ipsa, excepturi quo fugit
+                                    consectetur ratione laboriosam, perspiciatis
+                                    suscipit harum voluptate autem dicta aut
+                                    neque enim ut.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row bg-danger text-light p-2 rounded-3">
+                                <div class="col-12 col-lg-6">
+                                    <h3>Cérémonies de bapteme</h3>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Cum laudantium quas eum
+                                    consequatur suscipit itaque, ipsa debitis
+                                    voluptas enim quia, voluptatem
+                                    necessitatibus qui exercitationem pariatur
+                                    iusto! Placeat commodi magnam rerum minima
+                                    quos mollitia ipsa, excepturi quo fugit
+                                    consectetur ratione laboriosam, perspiciatis
+                                    suscipit harum voluptate autem dicta aut
+                                    neque enim ut.
+                                </div>
+                                <div class="col-12 col-lg-5 offset-lg-1">
+                                    <img
+                                        class="d-block w-100"
+                                        src="./images/menu/spinach-salad.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row bg-dark text-light p-2 rounded-3">
+                                <div class="col-12 col-lg-6">
+                                    <img
+                                        class="d-block w-100"
+                                        src="./images/reservation-seat.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="col-12 col-lg-5 offset-lg-1">
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Cum laudantium quas eum
+                                    consequatur suscipit itaque, ipsa debitis
+                                    voluptas enim quia, voluptatem
+                                    necessitatibus qui exercitationem pariatur
+                                    iusto! Placeat commodi magnam rerum minima
+                                    quos mollitia ipsa, excepturi quo fugit
+                                    consectetur ratione laboriosam, perspiciatis
+                                    suscipit harum voluptate autem dicta aut
+                                    neque enim ut.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselId"
+                        data-bs-slide="prev"
+                    >
+                        <span
+                            class="carousel-control-prev-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselId"
+                        data-bs-slide="next"
+                    >
+                        <span
+                            class="carousel-control-next-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="reservation" class="my-5">
+            <h2 class="text-center mb-5 bg-dark text-danger p-2">
+                Réserver une table
+            </h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-10 mx-auto">
+                        <form action="">
+                            <div class="d-md-flex justify-content-between">
+                                <div class="mb-3">
+                                    <input
+                                        type="text"
+                                        class="form-control text-uppercase"
+                                        id="nameInput"
+                                        placeholder="Votre nom"
+                                    />
+                                </div>
+                                <div class="mb-3">
+                                    <input
+                                        type="text"
+                                        class="form-control text-capitalize"
+                                        id="surnameInput"
+                                        placeholder="Vos prénoms"
+                                    />
+                                </div>
+                            </div>
+                            <div class="d-md-flex justify-content-between">
+                                <div class="mb-3">
+                                    <input
+                                        type="email"
+                                        class="form-control"
+                                        id="emailInput"
+                                        placeholder="nom@domaine.com"
+                                    />
+                                </div>
+                                <div class="mb-3">
+                                    <input
+                                        type="tel"
+                                        class="form-control"
+                                        id=""
+                                        aria-describedby="helpId"
+                                        placeholder="Téléphone"
+                                    />
+                                </div>
+                            </div>
+                            <div class="d-md-flex justify-content-between">
+                                <div class="mb-3">
+                                    <input
+                                        type="text"
+                                        class="form-control w-100"
+                                        id="dateInput"
+                                        placeholder="Date de réservation"
+                                    />
+                                </div>
+                                <div class="mb-3">
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="objectInput"
+                                        placeholder="Objet de la réservation"
+                                    />
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mb-3">
+                                    <textarea
+                                        class="form-control"
+                                        placeholder="Autre chose à préciser"
+                                        id="otherPrecision"
+                                    ></textarea>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-danger">
+                                Réservez
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="my-5 py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <ul>
+                            <li>
+                                <img
+                                    src="./images/icons/location-dot.svg"
+                                    alt=""
+                                />
+                                <div>
+                                    <h4>Location</h4>
+                                    Cotonou, Gbégamey
+                                </div>
+                            </li>
+                            <li>
+                                <img
+                                    src="./images/icons/calendar-week.svg"
+                                    alt=""
+                                />
+                                <div>
+                                    <h4>Heures d'ouverture</h4>
+                                    Lundi - Samedi <br />
+                                    10h - 02h
+                                </div>
+                            </li>
+                            <li>
+                                <img
+                                    src="./images/icons/at.svg"
+                                    alt=""
+                                />
+                                <div>
+                                    <h4>Email</h4>
+                                    info@example.com
+                                </div>
+                            </li>
+                            <li>
+                                <img
+                                    src="./images/icons/phone.svg"
+                                    alt=""
+                                />
+                                <div>
+                                    <h4>Téléphone</h4>
+                                    +229 1693 6316 3518
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 mt-5 mt-md-0">
+                        <h2 class="mb-md-5">Nous envoyer un message</h2>
+                        <form action="">
+                            <div class="mb-3">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id=""
+                                    placeholder="Votre Nom"
+                                />
+                            </div>
+                            <div class="mb-3">
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id=""
+                                    placeholder="Votre Email"
+                                />
+                            </div>
+                            <div class="mb-3">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="subjectInput"
+                                    placeholder="Sujet"
+                                />
+                            </div>
+                            <div class="mb-3">
+                                <textarea
+                                    class="form-control"
+                                    id="messageInput"
+                                    placeholder="Votre Message"
+                                >
+                                </textarea>
+                            </div>
+
+                            <div class="d-flex justify-content-center mt-4">
+                                <button
+                                    type="submit"
+                                    class="btn btn-success"
+                                >
+                                    Envoyer le message
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div id="liensSociaux" class="my-3">
+                        <h3 class="text-center my-5">Suivez nous sur les réseaux</h3>
+                        <div class="d-flex justify-content-around">
+                            <a
+                                ><img
+                                    src="./images/icons/facebook.svg"
+                                    alt="Logo Facebook"
+                                />
+                            </a>
+
+                            <a
+                                ><img
+                                    src="./images/icons/instagram.svg"
+                                    alt="Logo Instagram"
+                                />
+                            </a>
+
+                            <a>
+                                <img src="./images/icons/twitter.svg" alt="Logo Twitter"
+                            /></a>
+
+                            <a
+                                ><img
+                                    src="./images/icons/whatsapp.svg"
+                                    alt="Logo Whatsapp"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="py-3">
+            <div>
+                <div class="fs-3 text-center text-light">
+                    &copy Copyright Let's Eat. Tous droits réservés - 2022
+                </div>
+            </div>
+        </footer>
+
+        <script src="./js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
